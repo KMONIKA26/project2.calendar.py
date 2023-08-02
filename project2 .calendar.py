@@ -8,7 +8,7 @@ root = Tk()
 root.geometry("400x400")
 
 #add calendar
-cal = Calendar(root, selectmode = 'day',year = 2020, month =5,day = 22)
+cal = Calendar(root, selectmode = 'day',year = 2001, month =6,day = 26)
 cal.pack(pady=20)
 
 def grad_date():
